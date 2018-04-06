@@ -1,4 +1,4 @@
-FROM httpd:2.4.28-alpine 
+FROM httpd:2.4.23-alpine
 
 MAINTAINER Hypoport
 
