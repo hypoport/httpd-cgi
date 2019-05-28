@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+printf "Content-type: text/plain; charset=iso-8859-1\n\n"
+
+printf "Hello world!\n"
+
+echo "$(date +%FT%T) error" >&2
+

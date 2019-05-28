@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# printf "Location: /index.html\n\n"
+printf "Location: /test.txt\n\n"
+
