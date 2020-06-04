@@ -2,7 +2,7 @@ FROM httpd:2.4.41-alpine
 
 MAINTAINER Hypoport
 
-RUN apk update ; apk add curl jq 
+RUN apk update ; apk add curl jq coreutils
 
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY cgi-bin/ /usr/local/apache2/cgi-bin/
